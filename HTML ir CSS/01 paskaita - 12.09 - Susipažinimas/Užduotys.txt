@@ -1,0 +1,6 @@
+1) Perskaityti ir peržiūrėti CAO intro paskaita 1 ir 2.
+2) Įsidiegti į kompiuterį ir telefoną Teams'ų programėlę.
+3) Įsidiegti VS Code į kompiuterį.
+4) Pasitestuoti / pasibandyti shortcuts.
+extra 5) Internete pasieiškoti extra info jeigu reikia.
+extra 6) Pasidomėti apie HTML (rytojaus tema).
