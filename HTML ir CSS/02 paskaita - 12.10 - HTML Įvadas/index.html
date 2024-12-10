@@ -45,6 +45,24 @@
         <li>option - option - variantas</li>
         <li>fieldset - field set - lauko apipavidalinimas</li>
         <li>legend - legend - lauko pavadinimas</li>
+        <li>table - table - lentelė</li>
+        <li>thead - table head - stulpelių pavadinimų skiltis</li>
+        <li>tbody - table body - duomenų skiltis</li>
+        <li>tfoot - table foot - apibendrinimo skiltis</li>
+        <li>tr - table row - lentelės eilutė</li>
+        <li>td - table data - lentelės duomuo</li>
+        <li>th - table heading - lentelės stulpelio pavadinimas</li>
+      </ul>
+      <h2>Atributų sąrašas</h2>
+      <ul>
+        <li>href - hyperlink reference - nuoroda į kažkur (dažniausiai puslapį)</li>
+        <li>src - source - šaltinis/nuoroda į kažką (dažniausiai failą)</li>
+        <li>alt - alternative text - medijai skirtas alternatyvus tekstas</li>
+        <li>width - width - nurodo elemento plotį</li>
+        <li>height - height - nurodo elemento aukštį</li>
+        <li>type - input type - įvesties tipas (tekstas/password'as/skaičius...)</li>
+        <li>colspan - column span - lentelės laukelio plėtimas stulpeliais</li>
+        <li>target - anchor target - nurodo kur bus atidaryta nuoroda</li>
       </ul>
 
       <h1>Antraštė didelė 1</h1>
@@ -88,6 +106,62 @@
       </form>
       <hr>
       <h3>Lentelė</h3>
+      <table border>
+        <thead>
+          <tr>
+            <th>Vardas</th>
+            <th>Pavardė</th>
+            <th>Amžius</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rokas</td>
+            <td>Banaitis</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>Petras</td>
+            <td>Petrauskas</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Jonas</td>
+            <td>Jonauskas</td>
+            <td>10</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Vidurkis</td>
+            <td>23</td>
+          </tr>
+        </tfoot>
+      </table>
+      <hr>
+      <h3>Lankytinos vietos</h3>
+      <table border>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Pavadinimas</th>
+            <th>Lokacija</th>
+            <th>Buvau/Nebuvau</th>
+            <th>Nuoroda</th>
+            <th>Nuotrauka</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Maču Pikču</td>
+            <td>Peru</td>
+            <td>Nebuvęs</td>
+            <td><a href="https://www.vle.lt/straipsnis/macu-pikcu/" target="_blank">Plačiau...</a></td>
+            <td><img src="https://www.vle.lt/uploads/_CGSmartImage/18466_1-da43adb3fc777c7cca7d0a730bc98683.jpg" alt="maču pikču" height="150px" width="150px"></td>
+          </tr>
+        </tbody>
+      </table>
     </main>
     <footer></footer>
   </body>
