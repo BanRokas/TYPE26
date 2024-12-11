@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>3 paskaita - CSS Įvadas</title>
+    <link href="./media/" rel="icon">
+    <!-- komentaras HTML -->
+    <style>
+      /* komentaras CSS */
+      p{
+        color: orange;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+    </style>
+    <link href="./stiliai.css" rel="stylesheet">
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <!-- semantiniai tag'ai -->
+      <section>
+        <h2>Semantiniai tag'ai</h2>
+        <ul>
+          <li>section - sekcija skirta kažkokiai temai aprašyti</li>
+          <li>article - straipsnis skirtas kažkokiai temai aprašyti</li>
+          <li>div - divas skirtas sukurti blokelį (grupuoti tag'us)</li>
+          <li>nav - navigation - navigacija</li>
+        </ul>
+      </section>
+      <!-- CSS Įvadas -->
+      <h1>CSS Įvadas</h1>
+      <!-- CSS rašymo būdai -->
+      <section>
+        <h2>CSS rašymo būdai</h2>
+        <ul>
+          <li>Inline - linijinis - kai CSS kodas rašomas tag'o atribute</li>
+          <li>Internal - vidinis - kai CSS kodas rašomas HTML faile, head tag'o -> style tag'o viduje</li>
+          <li>External - išorinis - kai CSS kodas rašomas atskirame CSS faile, kuris yra prijungiamas prie HTML naudojant link tag'ą</li>
+        </ul>
+        <!-- Inline -->
+        <div>
+          <h3>Inline</h3>
+          <p style="color:red; font-size: 18px">
+            <span style="font-weight:bold; color: blue">Linijinis CSS</span> rašymo būdas yra naudojamas norint pasitestuoti kažkokius stilius.<br>
+            Norint panaudoti linijinį CSS rašymo būdą, tag'ui reikia suteikti style atributą, kurio viduje rašome stilius.
+          </p>
+        </div>
+        <!-- Internal -->
+        <div>
+          <h3>Internal</h3>
+          <p>
+            Vidinis CSS rašymo būdas yra naudojamas norint pasitestuoti kokius nors selektorius ir stilius arba esant labai mažam HTML failui.<br>
+            Norint panaudoti vidinį CSS rašymo būdą, reikia susikurti style tag'ą (kuris įprastai rašomas head tag'o viduje) ir jame aprašyti selektorius su stiliais.
+          </p>
+        </div>
+        <!-- External -->
+        <div>
+          <h3>External</h3>
+          <p>
+            Išorinis CSS rašymo būdas yra naudojamas dažniausiai.<br>
+            Norint panaudoti išorinį CSS rašymo būdą, reikia susikurti naują CSS failą, kurį reikia prijungti prie HTML naudojant link tag'ą. O pačiame CSS faile rašyti įprastą CSS kodą su selektoriais ir stiliais.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
