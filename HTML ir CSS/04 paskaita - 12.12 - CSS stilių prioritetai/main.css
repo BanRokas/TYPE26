@@ -1,0 +1,28 @@
+/* Fonai */
+.fonoDydis {
+  height: 500px;
+}
+.vienspalvisFonas {
+  background-color: rgb(165, 221, 175);
+}
+.gradientoFonas {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(229, 165, 165),
+    rgb(228, 228, 178),
+    rgb(167, 167, 226)
+  );
+}
+.fonoPaveiksliukas1{
+  background-image: url("./media/nature3.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+.fonasFiksuotas{
+  background-image: url("./media/nature9.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fonoPaveiksliukas2{
+  background-image: url("./media/nature5.jpg");
+}
