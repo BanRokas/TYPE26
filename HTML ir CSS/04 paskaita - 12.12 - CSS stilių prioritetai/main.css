@@ -26,3 +26,24 @@
 .fonoPaveiksliukas2{
   background-image: url("./media/nature5.jpg");
 }
+
+/* Prioritetai */
+.prioritetai{
+  color: green;
+}
+#tekstasGeltonas{
+  color: yellow;
+}
+.tekstasVioletinis{
+  color: #80006b;
+}
+p{
+  color: orange !important;
+}
+p{
+  color: blue;
+}
+.svarbu{
+  font-size: 30px;
+  font-weight: bold;
+}

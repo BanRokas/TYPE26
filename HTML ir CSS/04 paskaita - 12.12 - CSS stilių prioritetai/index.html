@@ -97,6 +97,36 @@
         <!-- CSS Stilių Prioritetai -->
         <div>
           <h2>CSS Stilių Prioritetai</h2>
+          <ol>
+            <li>!important</li>
+            <li>Linijinis / Inline</li>
+            <li>Selektoriaus Specifikacija
+              <ol>
+                <li>id 100</li>
+                <li>class 010</li>
+                <li>tag 001</li>
+              </ol>
+            </li>
+            <li>Eiliškumas / Order</li>
+            <li>Numatytieji / User Agent</li>
+            <li>Paveldėjimas / Inheritance</li>
+          </ol>
+          <p>
+            Elementui gaunant stilius iš selektorių su vienoda specifikacija - yra atsižvelgiama į tų selektorių eiliškumą. Žemiau esantis selektorius su vienoda specifikacija - turi aukštesnį prioritetą.
+          </p>
+          <p>
+            <span class="svarbu">Jeigu įmanoma - nenaudoti!!!</span> !important prierašo. !important ignoruoja visus prioritetus ir suteikia nurodytą stilių. Norint perrašyti !important, reikia naudoti kitą !important su aukštesne specifikacija.
+          </p>
+          <div class="prioritetai">
+            <a href="https://google.lt">Nuoroda</a>
+            <p
+              class="tekstasVioletinis"
+              id="tekstasGeltonas"
+              style="color: black"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, temporibus!
+            </p>
+          </div>
         </div>
       </section>
     </main>
