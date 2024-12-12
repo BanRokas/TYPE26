@@ -8,9 +8,9 @@
 .gradientoFonas {
   background-image: linear-gradient(
     to bottom right,
-    rgb(229, 165, 165),
-    rgb(228, 228, 178),
-    rgb(167, 167, 226)
+    rgba(218, 139, 139, 0.918),
+    #e4e4b2,
+    hsl(120, 5%, 4%)
   );
 }
 .fonoPaveiksliukas1{
