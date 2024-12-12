@@ -1,3 +1,6 @@
+body{
+  background-color: antiquewhite;
+}
 p{
   color: green;
 }
@@ -49,4 +52,44 @@ h2{
   display: inline-block;
   text-align: center;
   line-height: 100px;
+}
+
+/* Namų darbai */
+
+.inline_block{
+  display: inline-block;
+}
+.veliava{
+  width: 510px;
+  height: 300px;
+}
+.horizontalusPilnas{
+  width: 510px;
+  height: 100px;
+}
+.vertikalusPilnas{
+  width: 170px;
+  height: 300px;
+}
+.floatLeft{
+  float: left;
+}
+.noFontSize{
+  font-size: 0;
+  /* white-space-collapse: collapse; */
+}
+.mediumText{
+  font-size: 16px;
+}
+.geltona{
+  background-color: yellow;
+}
+.zalia{
+  background-color: green;
+}
+.raudona{
+  background-color: red;
+}
+.balta{
+  background-color: white;
 }
