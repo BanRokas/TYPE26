@@ -86,6 +86,98 @@
           </ul>
         </div>
       </section>
+      <!-- Box Sizing -->
+      <section>
+        <h2>Box Sizing</h2>
+        <p>
+          Nurodo kaip elemento nustatytasis plotis yra paskirstomas.<br>
+          Numatytasis nustatymas (content-box) nurodo, kad prie nustatyto ploto yra pridedami padding ir border nustatymai, šitaip gaunama, kad elementas išsiplečia.<br>
+          Dažnu atveju naudojamas nustatymas (border-box) nurodo, kad nustatytą plotą paskirsto content'ui, padding'ui ir border'iui. Šitaip elementas lieka nustatyto pločio ir neišsilplečia.
+        </p>
+      </section>
+      <!-- Positions -->
+      <section class="relative">
+        <h2>Positions</h2>
+        <p>
+          Suteikus elementui betkurią poziciją (apart numatytosios static), tuomet elementui galima suteikti z-index savybę, kuri suteikia galimybę kontroliuoti elemento eilės sluoksnį ekrane IR top, right, bottom, left, kurie atlieka skirtingus veiksmus priklausomai nuo pačios pozicijos.
+        </p>
+        <ul>
+          <li>static (default) - statinis</li>
+          <li>relative - relatyvus</li>
+          <li>absolute - absoliutus</li>
+          <li>fixed - fiksuotas</li>
+          <li>sticky - lipnus</li>
+          <li>(ne pozicijos) z-index, top, right, bottom, left</li>
+        </ul>
+        <div>
+          <h2>Static</h2>
+          <p>
+            Static nustatymas nesuteikia jokių savybių. Net neglima naudoti top, right, bottom, left ir z-index stilių.
+          </p>
+          <div class="positionsContainer">
+            <div class="kvadratas static">Static 1</div>
+            <div class="kvadratas static">Static 2</div>
+            <div class="kvadratas static top">Static 3</div>
+            <div class="kvadratas static">Static 4</div>
+          </div>
+        </div>
+        <div>
+          <h2>Relative</h2>
+          <p>
+            Relative nustatymas suteikia galimybę elementui priskirti top, right, bottom, left ir z-index nustatymus.<br>
+            Top, right, bottom ir left nustatymai pastumia elementą nuo jo pradinės pozicijos, nuo nurodytos kraštinės per nurodytą atstumą.<br>
+            Nurodo viduje esančiam absoliučiąjam elementui, jo judėjimo ribas.
+          </p>
+          <div class="positionsContainer">
+            <div class="kvadratas circle static">Static 1</div>
+            <div class="kvadratas relative z5">Relative 2</div>
+            <div class="kvadratas relative top right">Relative 3</div>
+            <div class="kvadratas relative">Relative 4</div>
+          </div>
+        </div>
+        <div>
+          <h2>Absolute</h2>
+          <p>
+            Absolute nustatymas suteikia galimybę naudotis top, right, bottom, left ir z-index nustatymais.<br>
+            Elementas turintis absolute poziciją išeina iš puslapio tėkmės (praranda savo vietą puslapyje).<br>
+            Top, right, bottom ir left stiliai atitraukia elementą nuo artimiausio protėvinio elemento, turinčio relative nustatymą.
+          </p>
+          <div class="positionsContainer relative">
+            <div class="kvadratas static">Static 1</div>
+            <div class="kvadratas absolute bottom right">Absolute 2</div>
+            <div class="kvadratas static">Static 3</div>
+            <div class="kvadratas static">Static 4</div>
+          </div>
+        </div>
+        <div>
+          <h2>Fixed</h2>
+          <p>
+            Fixed nustatymas suteikia elementui galimybę naudotis top, right, bottom, left ir z-index nustatymais.<br>
+            Elementas turintis fixed poziciją išeina iš puslapio tėkmės.<br>
+            Fixed elementas prilimpa prie ekrano (viewport) ir juda kartu scroll'inant per svetainę.<br>
+            Top, right, bottom ir left nustatymai nusako per kokį atstumą elementas bus prilipęs ir atsitraukęs nuo ekrano (viewport) kraštų.
+          </p>
+          <div class="positionsContainer">
+            <div class="kvadratas static">Static 1</div>
+            <div class="kvadratas static">Static 2</div>
+            <div class="kvadratas fixed top right">Fixed 3</div>
+            <div class="kvadratas static">Static 4</div>
+          </div>
+        </div>
+        <div>
+          <h2>Sticky</h2>
+          <p>
+            Sticky nustatymas suteikia elementui galimybę naudotis top, right, bottom, left ir z-index nustatymais.<br>
+            Top, right, bottom ir left nustatymai, nurodo per kokį atstumą nuo ekrano kraštų (viewport) elementas prilimpa ir scroll'inasi kartu. Elementas negali iš'scroll'inti iš savo tėvinio elemento ribų.
+          </p>
+          <div class="positionsContainer">
+            <div class="kvadratas static">Static 1</div>
+            <div class="kvadratas sticky top right">Sticky 2</div>
+            <div class="kvadratas static">Static 3</div>
+            <div class="kvadratas static">Static 4</div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
