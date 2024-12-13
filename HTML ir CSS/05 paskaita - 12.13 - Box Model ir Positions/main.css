@@ -1,0 +1,26 @@
+.boxModelPvz{
+  /* display: inline-block; */
+  /* border: 1px solid black; */
+  width: 150px;
+  background-color: aquamarine;
+
+  /* Padding */
+  /* padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-left: 50px; */
+  /* padding: 10px; */
+  /* padding: 10px 30px 5px 50px; */
+  /* padding: 10px 30px 5px; */
+  padding: 10px 30px;
+
+  /* Margin */
+  /* margin: 30px; */
+  margin: 0 auto;
+
+  /* Border */
+  /* border-right: 5px dotted orange; */
+  /* border-top-width: 3px;
+  border-right-width: 3px; */
+  border-radius: 10px;
+}

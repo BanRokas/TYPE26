@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./main.css">
+    <title>5 paskaita - Box Model ir Positions</title>
+  </head>
+  <body>
+    <!-- Box Model, Positions, selector, ikonos -->
+    <header></header>
+    <main>
+      <!-- Box Model -->
+      <section>
+        <h2>Box Model</h2>
+        <p>
+          Kiekvienas HTML elementas turi dėžutės modelį, kuriame yra nurodoma informacija apie turinio, pamušalo, rėmelio, paraščių ir pozicijų dydžius.
+        </p>
+        <ol>
+          <li>Content - turinys, centrinė dalis</li>
+          <li>Padding - pamušalas, nurodo tarpą tarp turinio ir rėmelio</li>
+          <li>Border - rėmelis, yra tarp padding ir margin</li>
+          <li>Margin - paraštės, nurodo tarpą tarp rėmelio ir kitų aplinkinių elementų</li>
+          <li>Positions - modifikuoja elementą poziciją</li>
+        </ol>
+        <div class="boxModelPvz">Box Model Pavyzdys</div>
+        <div>
+          <h3>Content</h3>
+          <p>
+            Turinys, kuris yra tekstas / media, kurį galima įvairiai stilizuoti.
+          </p>
+        </div>
+        <div>
+          <h3>Padding</h3>
+          <p>
+            Padding / pamušalas - tarpas tarp turinio ir rėmelio.<br>
+            Jį galima nustatyti 8 būdais.
+          </p>
+          <ul>
+            <li>padding-top: px;</li>
+            <li>padding-right: px;</li>
+            <li>padding-bottom: px;</li>
+            <li>padding-left: px;</li>
+            <li>padding: all;</li>
+            <li>padding: top_bottom right_left;</li>
+            <li>padding: top right_left bottom;</li>
+            <li>padding: top right bottom left;</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Border</h3>
+          <p>
+            Rėmelis yra juosta atskirianti padding ir margin. Rėmelis taip pat nurodo ir fono ribas.
+          </p>
+          <p>
+            Border'iui galima suteikti storio, stiliaus, spalvos ir kampų apvalinimo stilius. Skirtingus stilius galima suteikti skirtingoms kraštinėms/kampams.
+          </p>
+          <ul>
+            <li>border: width style color;</li>
+            <li>border-width: px;</li>
+            <li>border-style: style;</li>
+            <li>border-color: color;</li>
+            <li>border-top/right/bottom/left: width style color;</li>
+            <li>border-top/right/bottom/left-color: color;</li>
+            <li>border-radius: 5px;</li>
+            <li>...</li>
+            <li>..</li>
+            <li>.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Margin</h3>
+          <p>Margin top ir bottom neveikia linijiniams elementams.</p>
+          <p>
+            Margin / paraštės - tarpas tarp rėmelio ir aplinkinių elementų.<br>
+            Jį galima nustatyti 8 būdais.
+          </p>
+          <ul>
+            <li>margin-top: px;</li>
+            <li>margin-right: px;</li>
+            <li>margin-bottom: px;</li>
+            <li>margin-left: px;</li>
+            <li>margin: all;</li>
+            <li>margin: top_bottom right_left;</li>
+            <li>margin: top right_left bottom;</li>
+            <li>margin: top right bottom left;</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
