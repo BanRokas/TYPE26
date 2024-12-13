@@ -78,3 +78,10 @@
 .z10{
   z-index: 10;
 }
+
+/* Selectors */
+p.klase{}
+p.klase1.klase2{}
+
+div.container h2{}
+div.container > h2{}
