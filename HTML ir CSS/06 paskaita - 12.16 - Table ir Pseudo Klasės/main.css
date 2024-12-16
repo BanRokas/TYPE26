@@ -64,3 +64,9 @@ p:only-child{
 p:only-of-type{
   background-color: brown;
 }
+
+/* .sarasas > li:nth-child(5){ */
+/* .sarasas > li:nth-child(2n){ */
+.sarasas > li:nth-child(2n+5){
+  background-color: #689ed5;
+}
