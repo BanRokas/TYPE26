@@ -1,6 +1,7 @@
 table{
   border: 1px solid black;
-
+  border-collapse: collapse;
+  /* margin: 0 auto; */
 }
 
 /* tr{
@@ -9,4 +10,21 @@ table{
 
 th, td{
   border: 1px solid black;
+  padding: 3px 5px;
+  text-align: center;
 }
+
+caption{
+  caption-side: top;
+}
+
+.firstCol{
+  background-color: aqua;
+  font-weight: bold;
+  color: red;
+}
+.secondCol{
+  background-color: rgb(130, 78, 150);
+}
+.thirdToFifthCol{}
+.sixthCol{}
