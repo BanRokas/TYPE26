@@ -37,3 +37,30 @@ caption{
 
 .kazkokiaKlase{}
 [class="kazkokiaKlase"]{}
+
+li:hover{
+  background-color: black;
+  color: white;
+}
+a:link{
+  color: orange;
+}
+a:visited{
+  color: purple;
+}
+a:hover{
+  color: green;
+}
+a:active{
+  color: red;
+}
+
+td:first-child{
+  font-weight: bold;
+}
+p:only-child{
+  font-size: 3px;
+}
+p:only-of-type{
+  background-color: brown;
+}
