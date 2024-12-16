@@ -28,3 +28,12 @@ caption{
 }
 .thirdToFifthCol{}
 .sixthCol{}
+
+[colspan='5']{
+  background-color: aqua;
+  font-weight: bold;
+  color: red;
+}
+
+.kazkokiaKlase{}
+[class="kazkokiaKlase"]{}
