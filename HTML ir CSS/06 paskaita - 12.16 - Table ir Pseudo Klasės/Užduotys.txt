@@ -1,0 +1,3 @@
+CAO 8 nereikia Pseudo Elementų.
+
+Pasipraktikuoti naudoti selektorius žaidžiant šitą žaidimuką: https://flukeout.github.io/
