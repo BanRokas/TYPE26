@@ -112,15 +112,15 @@
           <label for="aprasymas">Aprašymas</label>
           <textarea name="aprasymas" id="aprasymas" cols="5" rows="5"></textarea>
         </div>
-        <div>
-          <label>Mėgstamiausia Programavimo Kalba</label>
-          <label for="py">Python</label>
+        <fieldset class="customInput">
+          <legend>Mėgstamiausia Programavimo Kalba:</legend>
           <input type="radio" name="kalbos" id="py">
-          <label for="java">Java</label>
+          <label for="py">Python</label>
           <input type="radio" name="kalbos" id="java" checked>
-          <label for="js">JavaScript</label>
+          <label for="java">Java</label>
           <input type="radio" name="kalbos" id="js">
-        </div>
+          <label for="js">JavaScript</label>
+        </fieldset>
         <div>
           <label>Moku Šias Programavimo Kalbas</label>
           <label for="py2">Python</label>
@@ -168,6 +168,28 @@
           </datalist>
         </div>
       </form>
+    </section>
+    <section>
+      <h2>Pseudo Class (Form)</h2>
+      <ul>
+        <li>:checked - pažymėtas(checkbox/radio)</li>
+        <li>:default - pradinis (kur pradžioje buvo: checked arba selected)</li>
+        <li>:disabled - turi disabled atributą</li>
+        <li>:enabled - neturi disabled atributo</li>
+        <li>:focus - šiuo metu fokusuojama įvestis</li>
+        <li>:in-range - min-max ribose</li>
+        <li>:out-of-range - už min-max ribų</li>
+        <li>:indeterminate - neapibrėžta reikšmė (nesvarbu)</li>
+        <li>:valid - tinkama reikšmė</li>
+        <li>:invalid - netinkama reikšmė</li>
+        <li>:required - privaloma įvestis (turi required atributą)</li>
+        <li>:optional - neprivaloma įvestis (neturi required atributo)</li>
+        <li>:readonly - elementas turi readonly atributą</li>
+        <li>:read-write - elementas neturi readonly atributo</li>
+        <li>...</li>
+        <li>..</li>
+        <li>.</li>
+      </ul>
     </section>
   </main>
   <footer></footer>
