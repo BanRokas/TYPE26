@@ -9,7 +9,7 @@
 <body>
   <header></header>
   <main>
-    <!-- Form, Form Pseudo Class, Pseudo Element, Nav? -->
+    <!-- Form, Form Pseudo Class, Pseudo Element -->
     <section>
       <h2>Form</h2>
       <p>
@@ -117,7 +117,7 @@
           <label for="py">Python</label>
           <input type="radio" name="kalbos" id="py">
           <label for="java">Java</label>
-          <input type="radio" name="kalbos" id="java">
+          <input type="radio" name="kalbos" id="java" checked>
           <label for="js">JavaScript</label>
           <input type="radio" name="kalbos" id="js">
         </div>
@@ -126,9 +126,46 @@
           <label for="py2">Python</label>
           <input type="checkbox" name="kalbos2" id="py2">
           <label for="java2">Java</label>
-          <input type="checkbox" name="kalbos2" id="java2">
+          <input type="checkbox" name="kalbos2" id="java2" checked>
           <label for="js2">JavaScript</label>
           <input type="checkbox" name="kalbos2" id="js2">
+        </div>
+        <div>
+          <label for="miestas">Pasirink savo Miestą</label>
+          <select name="miestas" id="miestas">
+            <option disabled selected>Pasirink savo Miestą</option>
+            <option value="Kaunas">Kaunas</option>
+            <option value="Vilnius">Vilnius</option>
+            <option value="Klaipėda">Klaipėda</option>
+            <option value="Alytus">Alytus</option>
+            <option value="Utena">Utena</option>
+          </select>
+        </div>
+        <div>
+          <label for="dataListSalis">Pasirink savo Šalį</label>
+          <input list="salis" name="dataListSalis" id="dataListSalis" value="Suomija">
+          <datalist id="salis">
+            <option value="Lietuva">LTU, lietus, LDK</option>
+            <option value="Latvija"></option>
+            <option value="Estija"></option>
+            <option value="Lenkija"></option>
+            <option value="Vokietija"></option>
+            <option value="Rusija"></option>
+            <option value="Ukraina"></option>
+            <option value="Baltarusija"></option>
+            <option value="Švedija"></option>
+            <option value="Suomija"></option>
+            <option value="Norvegija"></option>
+            <option value="Prancūzija"></option>
+            <option value="Ispanija"></option>
+            <option value="Portugalija"></option>
+            <option value="Italija"></option>
+            <option value="Graikija"></option>
+            <option value="Bulgarija"></option>
+            <option value="Serbija"></option>
+            <option value="Serbininija"></option>
+            <option value="Serbai"></option>
+          </datalist>
         </div>
       </form>
     </section>
