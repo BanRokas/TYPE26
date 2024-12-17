@@ -1,0 +1,10 @@
+1) CAO skaityti ir daryti 9 10 ir 8 Pseudo Elementus (jei neskaitėt)
+
+2) 2 paskaitos metu darytą lentelę nusikopijuoti.
+  2.1) Užėjus su pele ant vieno iš laukelių - pakeisti jo fono spalvą.
+  2.2) Užėjus su pele ant vieno iš laukelių - pakeisti to laukelio eilutės fono spalvą.
+  extra 2.3) Užėjus su pele ant vieno iš laukelių - pakeisti to laukelio stulpelio fono spalvą.
+
+Nebūtina atlikti šitų:
+  Atkartoti custom input atvaizduotą "./media/customInput.PNG"
+  (extra) Atkartoti formą atvaizduotą "./media/niceForm.png"
