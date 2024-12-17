@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7 paskaita - Formos ir Pseudo Elementai</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <!-- Form, Form Pseudo Class, Pseudo Element, Nav? -->
+    <section>
+      <h2>Form</h2>
+      <p>
+        Formos reikalingos norint pasiimti vartotojo įvestis. Plačiau apie tai JS temos metu.
+      </p>
+      <h3>Formos tag'ai</h3>
+      <ul>
+        <li>form - formos tag'as</li>
+        <li>label - formos įvesties etiketė/pavadinimas</li>
+        <li>input - formos įvesties laukas (įvairus)</li>
+        <li>textarea - formos įvesties laukas (dideliam teksto kiekiui)</li>
+        <li>select - opcijų pasirinkimo laukas (nedideliam kiekiui opcijų)</li>
+        <li>datalist - opcijų pasirinkimo laukas (dideliam kiekiui opcijų)</li>
+        <li>option - opcija</li>
+        <li>output - formos atsakymui išvesti</li>
+        <li>button - mygtukas (asmeniškai nesiūlau naudoti formose)</li>
+      </ul>
+      <h3>Formos tag'ų atributai</h3>
+      <ul>
+        <li>type - input - nurodo tipą
+          <ul>
+            <li>text - tekstas</li>
+            <li>password - slapyvardis (atvaizduojamas kaip taškeliai)</li>
+            <li>number - skaičius</li>
+            <li>email - elektroninis paštas</li>
+            <li>url - nuoroda</li>
+            <li>checkbox - daugelio pasirinkimas</li>
+            <li>radio - vieno pasirinkimas</li>
+            <li>submit - formos pateikimas</li>
+            <li>file - failo iš kompiuterio pasirinkimas</li>
+            <li>tel - telefonas</li>
+            <li>range - skaičiaus pasirinkimas slenkančioje juostoje</li>
+            <li>date - datos pasirinkimas (metų, mėnesio, dienos)</li>
+            <li>datetime-local - datos ir laiko pasirinkimas (metų, mėnesio, dienos, valandos, minutės)</li>
+            <li>month - mėnesio pasirinkimas</li>
+            <li>week - savaitės pasirinkimas</li>
+            <li>time - laiko pasirinkimas</li>
+            <li>color - spalvos pasirinkimas</li>
+            <li>button - mygtukas be funkcionalumo</li>
+            <li>image - paveiksliukas skirtas pateikti formą</li>
+            <li>hidden - paslėpta įvestis</li>
+            <li>reset - išvalo formos įvestis</li>
+            <li>search - paieškos laukas</li>
+          </ul>
+        </li>
+        <li>for - label - nurodo kuriai įvesčiai priskirti label'į</li>
+        <li>id - įvestims - apjungia label'į su įvestimi</li>
+        <li>name - įvestims - suteikia įvesčiai vardą (susigalvotą) (dažnu atveju toks pats kaip ir id)</li>
+        <li>value - įvestims - įvesties reikšmė</li>
+        <li>required - įvestims - privaloma įvestis</li>
+        <li>placeholder - input+textarea - pavyzdinis tekstas</li>
+        <li>min - input(number/range/date) - minimali įvestis</li>
+        <li>max - input(number/range/date) - maksimali įvestis</li>
+        <li>step - input(number/range) - kitimo žingsnis</li>
+        <li>accept - input(file) - kokio tipo failai leistini</li>
+        <li>pattern - input(tel/...) - nurodo kokia turi būti įvesties seka (naudojant regex)</li>
+        <li>rows - textarea - eilučių kiekį (vizualus dydis)</li>
+        <li>cols - textarea - stuplelių kiekį (vizualus dydis)</li>
+        <li>checked - input(checkbox/radio) - iš anksto pažymėtas variantas</li>
+        <li>selected - option - iš anksto parinkta opcija</li>
+        <li>disabled - įvestims - išjungtas įvesties laukas</li>
+        <li>readonly - įvestims - neleidžiama keisti reikšmės</li>
+        <li>multiple - select - ledžia pasirinkti daug variantų</li>
+        <li>...</li>
+        <li>..</li>
+        <li>.</li>
+      </ul>
+      <h3>Test forma</h3>
+      <form>
+        <div>
+          <label for="vardas">Vardas</label>
+          <input type="text" name="vardas" id="vardas" value="Petras K.">
+        </div>
+        <div>
+          <label for="slaptazodis">Slapyvardis</label>
+          <input type="password" name="slaptazodis" id="slaptazodis">
+        </div>
+        <div>
+          <label for="elPastas">El. Paštas</label>
+          <input type="email" name="elPastas" id="elPastas" placeholder="tavo@pastas.com">
+        </div>
+        <div>
+          <label for="amzius">Amžius</label>
+          <input type="number" name="amzius" id="amzius" step="0.01" min="10" max="100">
+        </div>
+        <div>
+          <label for="data">Data</label>
+          <input type="date" name="data" id="data">
+        </div>
+        <div>
+          <label for="spalva">Spalva</label>
+          <input type="color" name="spalva" id="spalva">
+        </div>
+        <!-- <div>
+          <button>Tiesiog button</button>
+          <input type="submit" id="" value="Submit">
+          <input type="button" id="noriuFunc" value="Tekstas mygtuke">
+        </div> -->
+        <div>  
+          <label for="aprasymas">Aprašymas</label>
+          <textarea name="aprasymas" id="aprasymas" cols="5" rows="5"></textarea>
+        </div>
+        <div>
+          <label>Mėgstamiausia Programavimo Kalba</label>
+          <label for="py">Python</label>
+          <input type="radio" name="kalbos" id="py">
+          <label for="java">Java</label>
+          <input type="radio" name="kalbos" id="java">
+          <label for="js">JavaScript</label>
+          <input type="radio" name="kalbos" id="js">
+        </div>
+        <div>
+          <label>Moku Šias Programavimo Kalbas</label>
+          <label for="py2">Python</label>
+          <input type="checkbox" name="kalbos2" id="py2">
+          <label for="java2">Java</label>
+          <input type="checkbox" name="kalbos2" id="java2">
+          <label for="js2">JavaScript</label>
+          <input type="checkbox" name="kalbos2" id="js2">
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
