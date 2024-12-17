@@ -23,3 +23,48 @@ body{
   background-color: green;
   border: 3px inset black;
 }
+
+::placeholder{
+  color: red;
+  font-size: 30px;
+  background-color: aquamarine;
+}
+
+li::before{
+  content: " :) ";
+  color: orange;
+  font-size: 32px;
+  border: 2px dotted black;
+}
+li::after{
+  content: " (: ";
+}
+
+li{
+  color: rgb(34, 131, 34);
+}
+::marker{
+  color: #000;
+  font-size: 30px;
+}
+li::selection{
+  color: orange;
+  background-color: #000;
+}
+
+::first-letter{
+  font-size: 32px;
+}
+/* ::first-line{
+  color: red;
+} */
+
+::-webkit-scrollbar{
+  width: 30px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: chocolate;
+}
+::-webkit-scrollbar-track{
+  background-color: black;
+}
