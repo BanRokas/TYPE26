@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8 paskaita - Display Flex</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <!-- Flex, Nav -->
+    <section>
+      <h2>Flex</h2>
+      <div>
+        <div>
+          <h3>Container</h3>
+          <ul>
+            <li>display: flex;</li>
+            <li>flex-direction: row(default) | column | row-reverse | column-reverse;</li>
+            <li>flex-wrap: no-wrap(default) | wrap | wrap-reverse;</li>
+            <li>flex-flow: flex-wrap flex-direction;</li>
+            <li>justify-content: flex-start(default) | flex-end | center | space-between | space-evenly | space-around;</li>
+            <li>align-content: normal(default) | flex-start | flex-end | center | space-between | space-evenly | space-around | stretch;</li>
+            <li>align-items: flex-start | flex-end | center | stretch(defualt) | baseline;</li>
+            <li>gap: row-gap column-gap;</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Children</h3>
+          <ul>
+            <li>order: number;</li>
+            <li>flex-grow: number; (default 0)</li>
+            <li>flex-shrink: number; (default 1)</li>
+            <li>flex-basis: px | %; (default - element size)</li>
+            <li>flex: flex-grow flex-shrink flex-basis;</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h3>Pavyzdys</h3>
+        <div class="pvzContainer">
+          <!-- div{$}*12 -->
+          <div>1</div>
+          <div class="order2 grow2">2</div>
+          <div>3</div>
+          <div class="order1 self_start">4</div>
+          <div>5</div>
+          <div>6</div>
+          <div class="order1">7</div>
+          <div>8</div>
+          <div>9</div>
+          <div class="order-1">10</div>
+          <div>11</div>
+          <div>12</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>

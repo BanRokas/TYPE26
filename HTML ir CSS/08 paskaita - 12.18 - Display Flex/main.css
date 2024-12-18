@@ -1,0 +1,46 @@
+.pvzContainer{
+  border: 1px solid black;
+  height: 500px;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+  justify-content: center;
+  /* align-content: center; */
+  align-items: center;
+  gap: 5px;
+}
+
+.pvzContainer > div{
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+  border: 3px solid orange;
+  font-size: 32px;
+  font-weight: bold;
+  /* flex-grow: 1;
+  flex-basis: 0%; */
+}
+
+.order1{
+  order: 1;
+}
+.order2{
+  order: 2;
+}
+.order-1{
+  order: -1;
+}
+
+div.grow2{
+  flex-grow: 2;
+}
+
+.self_start{
+  align-self: flex-start;
+}
+
+div.pvzContainer > div:hover{
+  align-self: flex-start;
+}
