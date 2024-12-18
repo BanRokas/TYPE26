@@ -1,3 +1,7 @@
+body{
+  height: 500vh;
+}
+
 .pvzContainer{
   border: 1px solid black;
   height: 500px;
@@ -43,4 +47,10 @@ div.grow2{
 
 div.pvzContainer > div:hover{
   align-self: flex-start;
+}
+
+.basicFlex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
