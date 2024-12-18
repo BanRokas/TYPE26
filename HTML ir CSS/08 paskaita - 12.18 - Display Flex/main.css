@@ -1,5 +1,10 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   height: 500vh;
+  margin: 0;
 }
 
 .pvzContainer{
@@ -53,4 +58,36 @@ div.pvzContainer > div:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+header{
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 3px solid black;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+}
+header > img{
+  height: 100%;
+  width: auto;
+}
+header > nav > ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  gap: 10px;
+}
+header > nav > ul > li > a{
+  text-decoration: none;
+}
+[id]{
+  scroll-margin-top: 60px;
 }
