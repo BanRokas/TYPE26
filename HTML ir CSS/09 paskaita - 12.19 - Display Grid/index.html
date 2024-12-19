@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>9 paskaita - Display Grid</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <section>
+      <h2>Display Grid</h2>
+      <div class="gridStyles">
+        <div>
+          <h3>Parent (Container)</h3>
+          <ul>
+            <li>display: grid;</li>
+            <li>grid-template-rows: fr px %;</li>
+            <li>grid-template-columns: for px %;</li>
+            <li>grid-template: grid-template-rows / grid-template-columns;</li>
+            <li>grid-template-areas: ". . ." ;</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Children (Items)</h3>
+          <ul>
+            <li>grid-row-start: number;</li>
+            <li>grid-column-start: number;</li>
+            <li>grid-row-end: number;</li>
+            <li>grid-column-end: number;</li>
+            <li>grid-row: grid-row-start / grid-row-end;</li>
+            <li>grid-column: grid-column-start / grid-column-end;</li>
+            <li>grid-area: name | grid-row-start / grid-column-start / grid-row-end / grid-column-end;</li>
+            <li>z-index: number; (nereikia pozicijos jeigu grid vaikinis)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Units and Functions</h3>
+          <ul>
+            <li>fr - frakcija</li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h2>Grid Pavyzdys</h2>
+        <div class="gridContainerPvz">
+          <!-- div{$}*12 -->
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>
+          <div>10</div>
+          <div>11</div>
+          <div>12</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
