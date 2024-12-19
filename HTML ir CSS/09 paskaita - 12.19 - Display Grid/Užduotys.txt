@@ -1,0 +1,8 @@
+1) Pasidaryti CAO 13 (praleisti 12'tą kolkas, 12 rytoj).
+2) Peržiūrėti video:
+  flex: https://youtu.be/u044iM9xsWU
+  grid: https://youtu.be/rg7Fvvl3taU
+  flex VS grid: https://youtu.be/3elGSZSWTbM
+3) Pabandyti įveikti https://cssgridgarden.com/
+4) Pabandyti (jei norit) https://codingfantasy.com/games/css-grid-attack/play
+5) Pabandyti atkartoti "./media/gridOverlap.png" (galima pažiūrėti grid sistemos linijas "./media/gridOverlapLines.png" jeigu nepavyksta pačiam)
