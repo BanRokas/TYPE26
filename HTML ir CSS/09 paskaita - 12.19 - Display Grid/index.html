@@ -20,6 +20,17 @@
             <li>grid-template-columns: for px %;</li>
             <li>grid-template: grid-template-rows / grid-template-columns;</li>
             <li>grid-template-areas: ". . ." ;</li>
+            <li>gap: row-gap column-gap;</li>
+            <li>align-items: start | end | center | stretch;</li>
+            <li>justify-items: start | end | center | stretch;</li>
+            <li>place-items: align-items justify-items;</li>
+            <li>align-content: start | end | center | stretch | space-between | space-around | space-evenly;</li>
+            <li>justify-content: start | end | center | stretch | space-between | space-around | space-evenly;</li>
+            <li>place-content: align-content justify-content;</li>
+            <li>grid-auto-rows: fr px %;</li>
+            <li>grid-auto-columns: fr px %;</li>
+            <li>grid-auto-flow: row(default) | column | dense | row dense | column dense;</li>
+            <li>grid: grid-template-rows grid-template-columns grid-template-areas grid-auto-rows grid-auto-columns grid-auto-flow;</li>
           </ul>
         </div>
         <div>
@@ -33,13 +44,24 @@
             <li>grid-column: grid-column-start / grid-column-end;</li>
             <li>grid-area: name | grid-row-start / grid-column-start / grid-row-end / grid-column-end;</li>
             <li>z-index: number; (nereikia pozicijos jeigu grid vaikinis)</li>
+            <li>align-self: start | end | center | stretch | baseline;</li>
+            <li>justify-self: start | end | center | stretch | baseline;</li>
+            <li>place-self: align-self justify-self;</li>
           </ul>
         </div>
         <div>
           <h3>Units and Functions</h3>
           <ul>
             <li>fr - frakcija</li>
-            <li></li>
+            <li>min-content</li>
+            <li>max-content</li>
+            <li>auto</li>
+            <li>fit-content()</li>
+            <li>minmax(min, max)</li>
+            <li>min(value1, value2, value3...)</li>
+            <li>max(value1, value2, value3...)</li>
+            <li>repeat(kiek, koki/ius)</li>
+            <li>subgrid</li>
           </ul>
         </div>
       </div>
