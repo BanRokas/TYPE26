@@ -104,3 +104,57 @@ body{
 .grid_14 > div:nth-child(12){
   grid-area: 4 / 3 / 7 / 5;
 }
+
+/* Flex */
+.all_20_FlexContainer{
+  /* width: 100%; */
+  height: 1000px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.all_20_FlexContainer > div{
+  border: 1px solid black;
+  /* width: 19%;
+  height: 23%; */
+  flex: 1 19%;
+}
+/* 4 */
+.flex_4{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.flex_4_container123, .flex_4_container9_10_11{
+  display: flex;
+  gap: 5px;
+  flex: 1 24%;
+}
+.flex_4_1, .flex_4_3, .flex_4_9, .flex_4_11{
+  flex: 2 39%;
+  background-color: aquamarine;
+}
+.flex_4_2, .flex_4_10{
+  flex: 1 19%;
+  background-color: aquamarine;
+}
+.flex_4_container45678{
+  flex: 2 48%;
+  display: flex;
+  gap: 5px;
+}
+.flex_4_container45, .flex_4_container78{
+  flex: 1 19%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.flex_4_4, .flex_4_5, .flex_4_7, .flex_4_8{
+  background-color: aquamarine;
+  flex: 1 49%;
+}
+.flex_4_6{
+  flex: 3 57%;
+  background-color: aquamarine;
+}
