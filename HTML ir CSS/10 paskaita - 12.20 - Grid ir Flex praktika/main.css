@@ -1,3 +1,12 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+/* CAO 13 task*/
+/* Grid */
 .gridContainer_CAO_13{
   /* width: 100%; */
   height: 300px;
@@ -6,7 +15,6 @@
   grid-template: 1fr 1fr / repeat(4, 1fr);
   gap: 10px;
 }
-
 .gridContainer_CAO_13 > div{
   background-color: orangered;
   color: white;
@@ -22,8 +30,7 @@
   /* grid-column: span 2; */
   grid-area: 1 / 3 / 2 / 5;
 }
-
-
+/* Flex */
 .flexContainer_CAO_13{
   width: 100%;
   height: 300px;
@@ -35,7 +42,6 @@
   width: 100%;
   /* height: 100%; */
 }
-
 .container234{
   display: flex;
   flex-direction: column;
@@ -45,7 +51,6 @@
   /* width: 100%; */
   height: 100%;
 }
-
 .container34{
   display: flex;
   gap: 10px;
@@ -60,4 +65,42 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Grid ir Flex TASK (po 20) */
+/* Grid */
+.all_20_GridContainer{
+  /* width: 100%; */
+  height: 1000px;
+
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(5, 1fr);
+  gap: 15px;
+}
+.all_20_GridContainer > div{
+  border: 1px solid black;
+}
+/* 14 */
+.grid_14{
+  /* width: 100%;
+  height: 100%; */
+
+  display: grid;
+  grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+  gap: 5px;
+}
+.grid_14 > div{
+  background-color: aquamarine;
+}
+.grid_14 > div:nth-child(3){
+  grid-area: 2 / 1 / 4 / 3;
+}
+.grid_14 > div:nth-child(4){
+  grid-area: 1 / 3 / 4 / 4;
+}
+.grid_14 > div:nth-child(8){
+  grid-area: 4 / 1 / 7 / 2;
+}
+.grid_14 > div:nth-child(12){
+  grid-area: 4 / 3 / 7 / 5;
 }
