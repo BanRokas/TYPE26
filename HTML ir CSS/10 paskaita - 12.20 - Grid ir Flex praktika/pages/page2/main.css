@@ -1,0 +1,62 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+*{
+  box-sizing: border-box;
+}
+body{
+  height: 500vh;
+}
+
+/* Bendri stliai */
+header{
+  padding: 0 20px;
+}
+footer, section{
+  padding: 20px 20px;
+}
+
+/* Header */
+header{
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+}
+.header_with_JS{
+  position: fixed;
+  top: 0;
+  background-color: #4d4dc7;
+}
+header > div:nth-child(1){
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+header > div:nth-child(1) > img{
+  /* width: auto; */
+  height: 50%;
+}
+
+/* hero */
+section#hero{
+  padding-top: 100px;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(22, 22, 180),
+    rgb(20, 198, 127)
+  );
+
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+section#hero > div{
+  flex: 1 60%;
+}
+section#hero > span{
+  flex: 1 40%;
+  border: 1px solid black;
+}
