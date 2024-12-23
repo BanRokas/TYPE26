@@ -2,11 +2,34 @@ body{
   background-color: #95d48f;
   text-decoration: underline;
 }
+#task2{
+  margin-top: 50px;
+  border: 2px inset grey;
+
+  display: grid;
+  gap: 5px;
+  grid-template-rows: 1fr 6fr 3fr 1fr;
+}
+#task2 > div{
+  padding: 10px;
+  border: 1px solid black;
+}
 
 @media (min-width: 576px){
   body{
     text-decoration: none;
     color: orangered;
+  }
+  #task2{
+    grid-template-columns: 1fr 2fr;
+    /* grid-template-rows: 7fr 3fr 1fr; */
+  }
+  #task2 > div:nth-child(1){
+    grid-row: span 4;
+    /* grid-row: span 3; */
+  }
+  #task2 > div:nth-child(2){
+    grid-row: span 2;
   }
 }
 
@@ -20,5 +43,19 @@ body{
   body{
     background-color: #a1a1a1;
     color: blue;
+  }
+  #task2{
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-rows: 10fr 1fr; */
+  }
+  /* #task2 > div:nth-child(1){
+    grid-row: span 2;
+  } */
+  #task2 > div:nth-child(2){
+    grid-row: span 3;
+  }
+  #task2 > div:nth-child(3){
+    /* grid-row: span 2; */
+    grid-row: span 4;
   }
 }
