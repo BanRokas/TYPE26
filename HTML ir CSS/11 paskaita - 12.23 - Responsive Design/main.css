@@ -1,0 +1,24 @@
+body{
+  background-color: #95d48f;
+  text-decoration: underline;
+}
+
+@media (min-width: 576px){
+  body{
+    text-decoration: none;
+    color: orangered;
+  }
+}
+
+@media (min-width: 768px){
+  body{
+    background-color: #84bde7;
+  }
+}
+
+@media (min-width: 992px){
+  body{
+    background-color: #a1a1a1;
+    color: blue;
+  }
+}
