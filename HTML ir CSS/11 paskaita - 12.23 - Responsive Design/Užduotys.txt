@@ -1,0 +1,6 @@
+0) Persiskaityti straipsnius.
+1) Pabandyti atkartoti "./media/responsiveTask1.PNG"
+2) Pabandyti atkartoti "./media/responsiveTask2.PNG"
+3) Pabandyti atkartoti "./media/responsiveTask3.PNG"
+4) Persiskaityti ir padaryti CAO užduotis.
+5) Pabandyti atkartoti "./media/responsiveDesign1.PNG"
