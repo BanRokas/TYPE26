@@ -1,0 +1,8 @@
+0) CAO
+1) Sukurti mygtuką, ant kurio užėjus su pele(kursoriumi), per labai mažą laiko tarpą pasikeistų jo fono ir teksto spalva (gal vos vos padidėtų).
+2) Padaryti elemento levitavimo efektą (kiltų aukštyn -> leistūsi žėmyn ir pastoviai kartotųsi) su animacija.
+extra 3) Atkartoti CSS Diner esantį elementų vingiavimą su animacija.
+
+for fun:
+  https://youtu.be/CG__N4SS1Fc
+  https://youtu.be/2B5rbsOoIUE
