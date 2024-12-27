@@ -64,6 +64,31 @@
     </section>
     <section> <!-- Animation -->
       <h2>Animation</h2>
+      <p>
+        Kontroliuoja stilių perėjimą iš vieno į kitą.<br>
+        Animacijai nebūtina vartotojo interakcija ir ji gali vykti kiek tik nori kartų.<br>
+        Animacijos metu tie patys stiliai gali turėti daugelį skirtingų nustatymų skirtingu animacijos metu.
+      </p>
+      <ul>
+        <li>animation-duration: seconds</li>
+        <li>animation-delay: seconds</li>
+        <li>animation-timing-function: timing-function</li>
+        <li>animation-name: susigalvotasVardas</li>
+        <li>animation-iteration-count: number | infinite;</li>
+        <li>animation-direction: normal | reverse | alternate | reverse-alternate;</li>
+        <li>animation-play-state: running | paused;</li>
+        <li>animation-fill-mode: none | forwards | backwards | both;</li>
+        <li>animation-composition: replace | add | accumulate;</li>
+        <li>animation: visų apjungimas (duration -> delay);</li>
+      </ul>
+      <p>
+        Tam, kad animacijos nustatymai būtų reikšmingi, reikia pačios animacijos.<br>
+        O pati animacija aprašoma keyframes pagalba.<br>
+        @keyframes susigalvotasVardas { 0%{} n%{} n+1%{} ... 100%{} }
+      </p>
+      <div class="animationContainer">
+        <div>Animacija</div>
+      </div>
     </section>
   </main>
   <footer></footer>
