@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12 paskaita - Transition and Animation</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <section> <!-- Transform -->
+      <h2>Transform</h2>
+      <p>
+        Transform yra stilius, kuris nusako kad elementas bus kažkaip pakeičiamas, o visi žemiau išvardinti dalykai yra šio stiliaus nustatymai.
+      </p>
+      <ul>
+        <li>rotate(Z) - sukasi aplink Z ašį</li>
+        <li>rotateZ(Z) - sukasi aplink Z ašį</li>
+        <li>rotateX(X) - sukasi aplink X ašį</li>
+        <li>rotateY(Y) - sukasi aplink Y ašį</li>
+        <li>translateX(X) - pastūmimas X ašyje</li>
+        <li>translateY(Y) - pastūmimas Y ašyje</li>
+        <li>translate(X, Y) - pastūmimas X ir Y ašyse</li>
+        <li>scaleX(X) - keičia elemento dydį X ašyje</li>
+        <li>scaleY(Y) - keičia elemento dydį Y ašyje</li>
+        <li>scale(X, Y) - keičia elemento dydį X ir Y ašyse. Parašius vieną argumentą - jis taikomas abiejoms ašims.</li>
+        <li>skewX(X) - ištempiami X ašies kaštinėse esantys elemento kraštai.</li>
+        <li>skewY(Y) - ištempiami Y ašies kaštinėse esantys elemento kraštai.</li>
+        <li>skew(X, Y) - ištempiami X ir Y ašių kaštinėse esantys elemento kraštai.</li>
+      </ul>
+      <div class="transformTest">
+        <div>Rotate</div>
+        <div>Translate</div>
+        <div>Scale</div>
+        <div>Skew</div>
+        <div>Combined</div>
+      </div>
+      <p>
+        Rotate, Translate ir Scale nustatymai jau turi savo atskirus stilius ir tam, kad juos panaudotume, nebebūtina jų rašyti kaip funkcijų transform stiliaus viduje.
+      </p>
+      <h3>Transform-origin</h3>
+      <p>
+        Transform origin nusako, nuo kurios elemento vietos vyksta rotate, scale ir skew kitimai.<br>
+        Transform-origin default yra elemento centre.
+      </p>
+    </section>
+    <section> <!-- Transition -->
+      <h2>Transition</h2>
+    </section>
+    <section> <!-- Animation -->
+      <h2>Animation</h2>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
