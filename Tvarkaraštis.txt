@@ -1,0 +1,24 @@
+HTML ir CSS
+  1 savaitė:
+    1 paskaita - 12.09 - Susipažinimas
+    2 paskaita - 12.10 - HTML Įvadas
+    3 paskaita - 12.11 - CSS Įvadas
+    4 paskaita - 12.12 - CSS stilių prioritetai
+    5 paskaita - 12.13 - Box Model ir Positions
+  2 savaitė:
+    6 paskaita - 12.16 - Lentelės ir pseudo klasės
+    7 paskaita - 12.17 - Formos ir pseudo elementai
+    8 paskaita - 12.18 - Flex
+    9 paskaita - 12.19 - Grid
+    10 paskaita - 12.20 - Flex ir Grid praktika
+  3 savaitė:
+    11 paskaita - 12.23 - Responsive Design
+    12 paskaita - 12.27 - Transition ir Animation
+  4 savaitė:
+    13 paskaita - 12.30 - Likusios temos
+    14 paskaita - 12.31 - Praktika
+    15 paskaita - 01.02 - Atsiskaitymas
+    16 paskaita - 01.03 - Soft Skills
+JS:
+  5 savaitė: kintamuosius, aritmetika, sąlygos, ciklai, funkcijos
+    17 paskaita - 01.06 - JS Įvadas
