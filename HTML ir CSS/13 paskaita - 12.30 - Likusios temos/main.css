@@ -1,0 +1,47 @@
+:root{
+  /* kintamųjų kūrimas */
+  --kintamojoVardas: 10px;
+  --flex-grid-gap-small: 5px;
+  --flex-grid-gap-medium: 10px;
+  --flex-grid-gap-large: 15px;
+
+  --text-color-primary: #171414;
+  --text-color-primary-dark: #000000;
+  --text-color-primary-light: #3a3a3a;
+  --text-color-warning: #bc2e18;
+  --text-color-success: #0e670e;
+}
+
+/* .twoColumns{
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.twoColumns > div > h3{
+  text-align: center;
+}
+
+.twoColumns > div > ul > li{
+  list-style-type: square;
+} */
+
+.twoColumns{
+  display: flex;
+  /* gap: 10px; */
+  gap: var(--flex-grid-gap-medium);
+  justify-content: space-around;
+
+  > div{
+    
+    > h3{
+      text-align: center;
+    }
+    > ul{
+
+      > li{
+        list-style-type: square;
+      }
+    }
+  }
+}
