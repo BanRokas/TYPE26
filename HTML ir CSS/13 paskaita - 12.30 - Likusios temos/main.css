@@ -1,4 +1,7 @@
 :root{
+  /* šakniniai nustatymai */
+  /* font-size: 16px; */
+
   /* kintamųjų kūrimas */
   --kintamojoVardas: 10px;
   --flex-grid-gap-small: 5px;
